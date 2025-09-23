@@ -13,9 +13,3 @@ Hecho por:
 Application case project for BICI-GO, as final course implementation.
 Made by Universidad del Magdalena students.
 
-Done by:
- # Juan Gonzalez
- # David Brunal
- # Luis Muñoz
- # Jaime Rincón
- # Camilo Mancilla
