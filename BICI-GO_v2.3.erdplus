@@ -110,14 +110,14 @@
             "minCardinality": "Mandatory",
             "maxCardinality": "One"
           },
-          "isSelected": false,
+          "isSelected": true,
           "isConnectable": false
         },
         "measured": {
           "width": 100,
           "height": 50
         },
-        "selected": false,
+        "selected": true,
         "dragging": false
       },
       {
@@ -467,7 +467,7 @@
         "id": "df8c168c-d562-4256-939b-0c88b8b560be",
         "type": "Entity",
         "position": {
-          "x": 196.26418765895875,
+          "x": 238.79557866033477,
           "y": -116.70452166246513
         },
         "data": {
@@ -487,7 +487,7 @@
         "id": "94bd3a58-6cf9-4898-b92d-f1af9720edaa",
         "type": "Relationship",
         "position": {
-          "x": 114.45418475698833,
+          "x": 156.98557575836435,
           "y": -172.53083674825322
         },
         "data": {
@@ -695,6 +695,55 @@
           "targetEntityDetails": {
             "id": "0d9f0e00-9b89-441a-b357-0c5983f96c93",
             "minCardinality": "Mandatory",
+            "maxCardinality": "One"
+          },
+          "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "49751898-6a56-4498-b729-d78442ca6250",
+        "type": "Entity",
+        "position": {
+          "x": 1342.376218917147,
+          "y": -501.74895736660625
+        },
+        "data": {
+          "label": "Fotos",
+          "type": "Regular",
+          "isConnectable": true,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "c3b9ea27-5c2e-414e-8468-4f29a91eea7b",
+        "type": "Relationship",
+        "position": {
+          "x": 1205.7675076142839,
+          "y": -503.27958134310217
+        },
+        "data": {
+          "label": "tiene",
+          "sourceEntityDetails": {
+            "id": "68592b04-4f87-40ed-83dd-a6bcbc074c76",
+            "minCardinality": "Optional",
+            "maxCardinality": "Many"
+          },
+          "targetEntityDetails": {
+            "id": "49751898-6a56-4498-b729-d78442ca6250",
+            "minCardinality": "Optional",
             "maxCardinality": "One"
           },
           "isSelected": false,
@@ -2544,6 +2593,18 @@
         "selected": false
       },
       {
+        "id": "c3b9ea27-5c2e-414e-8468-4f29a91eea7b->49751898-6a56-4498-b729-d78442ca6250;68592b04-4f87-40ed-83dd-a6bcbc074c76->49751898-6a56-4498-b729-d78442ca6250",
+        "type": "Relationship",
+        "source": "c3b9ea27-5c2e-414e-8468-4f29a91eea7b",
+        "target": "49751898-6a56-4498-b729-d78442ca6250",
+        "data": {
+          "id": "c3b9ea27-5c2e-414e-8468-4f29a91eea7b->49751898-6a56-4498-b729-d78442ca6250",
+          "minCardinality": "Optional",
+          "maxCardinality": "Many"
+        },
+        "selected": false
+      },
+      {
         "id": "68592b04-4f87-40ed-83dd-a6bcbc074c76->f35b184c-845f-4344-8752-f8686eb8fe0f",
         "type": "Subtype",
         "source": "68592b04-4f87-40ed-83dd-a6bcbc074c76",
@@ -3007,8 +3068,7 @@
         "id": "93c0ca55-501b-444b-a5f1-c34b0f2d58a6",
         "type": "Attribute",
         "source": "df8c168c-d562-4256-939b-0c88b8b560be",
-        "target": "3aa3942b-2ee4-4d22-8bef-00239be228c6",
-        "selected": false
+        "target": "3aa3942b-2ee4-4d22-8bef-00239be228c6"
       },
       {
         "id": "5fc121bb-6968-4aa9-b930-a4aca455eb80->af7cb309-5267-43ca-8650-86ec414f2595;af7cb309-5267-43ca-8650-86ec414f2595->557b4d99-df53-40c3-a5c8-ac64efe3d74c",
@@ -3047,9 +3107,9 @@
       }
     ],
     "viewport": {
-      "x": 178.51978123938693,
-      "y": 457.4663932698166,
-      "zoom": 0.7523854556970566
+      "x": 234.64589572400325,
+      "y": 210.43558443562387,
+      "zoom": 0.5
     }
   },
   "name": "BICI-GO_v2.3",
@@ -3060,5 +3120,5 @@
     "id": 84955
   },
   "id": 94984,
-  "updatedAtTimestamp": 1760016978
+  "updatedAtTimestamp": 1759980633
 }
