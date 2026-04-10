@@ -1,7 +1,7 @@
 # BICI-GO — Proyecto de Base de Datos (BD2025II)
 
 ## DATOS
-**Programa:** Ingeniería de Sistemas, 11vo semestre
+**Programa:** Ingeniería de Sistemas, 2026-1
 **Universidad:** Universidad del Magdalena
 
 Hecho por:
